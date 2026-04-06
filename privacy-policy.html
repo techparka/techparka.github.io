@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skarbio – Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            max-width: 720px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 { color: #1a1a2e; }
+        h2 { color: #444; margin-top: 32px; }
+        p { margin: 12px 0; }
+        .updated { color: #888; font-size: 0.9em; }
+        .short-version {
+            background: #f0f4ff;
+            border-left: 4px solid #6366F1;
+            padding: 12px 16px;
+            margin: 16px 0;
+            border-radius: 4px;
+        }
+        hr { border: none; border-top: 1px solid #eee; margin: 40px 0; }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy for Skarbio</h1>
+<p class="updated"><em>Last updated: March 7, 2026</em></p>
+
+<h2>1. Introduction</h2>
+<p>Skarbio ("the App") is a personal finance and expense tracking application for Android. This Privacy Policy explains how the App handles your information.</p>
+<div class="short-version">
+    <strong>The short version:</strong> Skarbio stores all your data locally on your device. We do not collect, transmit, or share any personal data.
+</div>
+
+<h2>2. Data We Do NOT Collect</h2>
+<p>Skarbio does not collect, store, or transmit to any server:</p>
+<ul>
+    <li>Personal identification information (name, email, phone)</li>
+    <li>Financial data or transaction history</li>
+    <li>Photos or scanned receipts</li>
+    <li>Device identifiers</li>
+    <li>Location data</li>
+    <li>Usage analytics, crash reports, or telemetry</li>
+</ul>
+
+<h2>3. Data Stored Locally on Your Device</h2>
+<p>All data you enter into Skarbio (transactions, bills, budgets, account balances, categories, settings) is stored exclusively in a local database on your device using Android Room (SQLite). This data never leaves your device and is not accessible to the developer or any third party.</p>
+
+<h2>4. Camera and Gallery Permission</h2>
+<p>Skarbio requests access to your camera and photo gallery solely for the purpose of scanning receipts and invoices. Photos are processed entirely on-device using Google ML Kit's on-device OCR (text recognition). No images are uploaded to any server — all processing happens locally.</p>
+
+<h2>5. Optional: VAT Registry Lookup</h2>
+<p>If you enable "Online store recognition" in Settings, the App may send a store's NIP (tax identification number) extracted from a receipt to the Polish Ministry of Finance public VAT registry API to retrieve the store's official name. <strong>Only the NIP number is sent</strong> — no personal or financial data. This feature is opt-in and disabled by default. You can turn it off at any time in Settings.</p>
+
+<h2>6. Backup and Export</h2>
+<p>You can create encrypted backups (.skb files) protected with a password of your choice using AES-256 encryption. You can also export your data as CSV files. These files are saved to a location you choose on your device. The App does not upload backups or exports anywhere automatically.</p>
+
+<h2>7. Notifications</h2>
+<p>The App may send local notifications to remind you about upcoming bill payments. These notifications are generated entirely on-device using Android WorkManager and do not involve any external push notification service.</p>
+
+<h2>8. Third-Party Services</h2>
+<ul>
+    <li><strong>Google ML Kit (on-device)</strong> — Used for text recognition on receipts and invoices. All processing happens locally on your device. For more information, see <a href="https://developers.google.com/ml-kit/terms">Google ML Kit Terms</a>.</li>
+    <li><strong>Polish VAT Registry API</strong> (optional, opt-in) — Public government API used only for store name lookup by NIP number.</li>
+</ul>
+<p>Skarbio does not integrate any advertising, analytics, or tracking SDKs.</p>
+
+<h2>9. Internet Permission</h2>
+<p>The App requests the INTERNET permission solely for the optional VAT Registry lookup feature described above. If you do not enable this feature, no network requests are made.</p>
+
+<h2>10. Data Security</h2>
+<p>Your data is stored in a standard Android SQLite database protected by your device's own security mechanisms (screen lock, encryption). Backups can optionally be encrypted with AES-256. The developer has no access to any of your data.</p>
+
+<h2>11. Children's Privacy</h2>
+<p>Skarbio is not directed at children under the age of 13. We do not knowingly collect any information from children.</p>
+
+<h2>12. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Any changes will be reflected by updating the "Last updated" date above.</p>
+
+<h2>13. Contact</h2>
+<p>If you have any questions about this Privacy Policy, please contact:</p>
+<p><strong>Email:</strong> skarbio.app@gmail.com</p>
+
+<hr>
+
+<h1>Polityka Prywatności — Skarbio</h1>
+<p class="updated"><em>Ostatnia aktualizacja: 7 marca 2026</em></p>
+
+<div class="short-version">
+    <strong>W skrócie:</strong> Skarbio przechowuje wszystkie dane wyłącznie lokalnie na Twoim urządzeniu. Nie zbieramy, nie przesyłamy ani nie udostępniamy żadnych danych osobowych.
+</div>
+
+<h2>1. Dane przechowywane lokalnie</h2>
+<p>Wszystkie transakcje, rachunki, budżety, konta i ustawienia są zapisywane wyłącznie w lokalnej bazie danych SQLite na Twoim telefonie. Dane nigdy nie opuszczają Twojego urządzenia.</p>
+
+<h2>2. Aparat i galeria</h2>
+<p>Aplikacja używa aparatu i galerii wyłącznie do skanowania paragonów i faktur. Zdjęcia są przetwarzane na urządzeniu za pomocą Google ML Kit OCR i nie są nigdzie przesyłane.</p>
+
+<h2>3. Opcjonalne: Wyszukiwanie w rejestrze VAT</h2>
+<p>Jeśli włączysz "Rozpoznawanie sklepów online" w Ustawieniach, aplikacja może wysłać NIP sklepu z paragonu do publicznego API rejestru VAT Ministerstwa Finansów, aby pobrać oficjalną nazwę firmy. <strong>Wysyłany jest wyłącznie NIP</strong> — żadne dane osobowe ani finansowe. Funkcja jest domyślnie wyłączona.</p>
+
+<h2>4. Kopia zapasowa</h2>
+<p>Możesz tworzyć zaszyfrowane kopie zapasowe (.skb) chronione hasłem (AES-256) oraz eksportować dane do CSV. Pliki są zapisywane w wybranym przez Ciebie miejscu. Aplikacja nie wysyła kopii nigdzie automatycznie.</p>
+
+<h2>5. Powiadomienia</h2>
+<p>Aplikacja może wysyłać lokalne powiadomienia o zbliżających się terminach płatności. Powiadomienia generowane są całkowicie na urządzeniu, bez zewnętrznych serwisów push.</p>
+
+<h2>6. Usługi zewnętrzne</h2>
+<p>Skarbio nie zawiera żadnych SDK reklamowych, analitycznych ani śledzących.</p>
+
+<h2>7. Kontakt</h2>
+<p><strong>Email:</strong> skarbio.app@gmail.com</p>
+
+</body>
+</html>
